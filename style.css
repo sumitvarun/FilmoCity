@@ -39,6 +39,8 @@ h4:hover{
 
 
 }
+
+
 .navbrandname{
     color: crimson;
     font-family: sans-serif;
@@ -46,7 +48,7 @@ h4:hover{
     font-size: 30px;
 }
 .carousel-inner{
-    height: 500px;
+  height: 400;
 }
 
 
@@ -69,12 +71,23 @@ h4:hover{
   }
   
   /* Style the counter cards */
+  /* Screen larger than 600px? 2 column */
+@media (min-width: 600px) {
+  .cards { grid-template-columns: repeat(2, 1fr); }
+}
+  @media (min-width: 900px) {
+    .cards { grid-template-columns: repeat(3, 1fr); }
+  }
   .card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
-    padding: 16px;
-    text-align: center;
-    background-color: #f1f1f1;
-    margin-bottom: 40px;
+    color: rgb(184, 12, 12);
+    padding: 1rem;
+    height: 4rem;
+  }
+  .cards {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-gap: 1rem;
   }
   
   /* Responsive columns - one column layout (vertical) on small screens */
