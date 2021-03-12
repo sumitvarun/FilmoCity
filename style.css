@@ -1,5 +1,7 @@
 
-
+body{
+  background-color: rgba(3, 3, 49, 0.514);
+}
 .playbutton{
 
 
@@ -12,7 +14,9 @@
     
 
 }
-
+.navbar{
+  background-color: rgba(9, 50, 51, 0.863);
+}
 h4{
     color: rgb(247, 233, 233);
     
@@ -80,9 +84,11 @@ h4:hover{
   }
   .moviecard{
     color: rgb(184, 12, 12);
-    background-color: darkcyan;
+    background-color: white;
     padding: 1rem;
-    height: 4rem;
+    height:fit-content;
+    margin-bottom: 20pt;
+  
   }
   .cards {
     max-width: 1200px;
@@ -101,3 +107,53 @@ h4:hover{
   }
 
 /*Movie Cards End here*/
+
+
+.moviecard {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  transform: scale(0);
+  transition: .3s ease;
+  background-color: rgba(2, 111, 201, 0.527);
+  
+}
+
+.moviecard:hover .overlay {
+  transform:scale(1)
+}
+
+.icon {
+  color: white;
+  font-size: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.fa-user:hover {
+  color: #eee;
+}
+
+.image{
+  max-height: 400px;
+}
