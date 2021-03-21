@@ -52,6 +52,7 @@ h4:hover{
     font-size: 30px;
 }
 .carousel-inner{
+  margin-top: 5px;
 }
 
 
@@ -346,6 +347,7 @@ footer .form-control {
 #bright:hover {
   box-shadow: 0px 0px 120px -55px rgba(255, 51, 0, 0.5);
 }
+/*carousel number 1 card blur image*/
 .bright_back {
   background: url("https://occ-0-2433-448.1.nflxso.net/art/cd5c9/3e192edf2027c536e25bb5d3b6ac93ced77cd5c9.jpg");
 }
@@ -355,8 +357,9 @@ footer .form-control {
 #tomb:hover {
   box-shadow: 0px 0px 120px -55px rgba(19, 160, 134, 0.6);
 }
+/*carousel number 2 card blur image*/
 .tomb_back {
-  background: url("https://images.indianexpress.com/2021/01/radhe-salman-khan-.jpg");
+  background: url("https://wallpapercave.com/wp/wp8253346.jpg");
 }
 #ave {
   box-shadow: 0px 0px 150px -45px rgba(199, 147, 75, 0.7);
@@ -365,8 +368,12 @@ footer .form-control {
 #ave:hover {
   box-shadow: 0px 0px 120px -55px rgba(199, 147, 75, 0.7);
 }
+/*carousel number 3 card blur image*/
 .ave_back {
   background: url("https://www.gannett-cdn.com/-mm-/c03fd140debe8ad4c05cf81a5cad7ad61a12ce52/c=0-1580-2985-3266&r=x803&c=1600x800/local/-/media/2017/06/09/USATODAY/USATODAY/636326272873599176-Black-Panther-Teaser.jpg");
+}
+.carouselimage1_back{
+  background: url("https://static-koimoi.akamaized.net/wp-content/new-galleries/2021/02/sooryavanshi-good-news-for-trade-fans-as-makers-start-booking-cinemas-for-akshay-kumar-starrers-release-0001.jpg?format=webp&compress=true&quality=80&w=1200&dpr=1.0");
 }
 
 /*csscardmovieend here*/
