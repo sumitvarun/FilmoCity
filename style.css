@@ -166,13 +166,13 @@ h4:hover{
   bottom: 0;
   width: 100%;
   /* Set the fixed height of the footer here */
-  height: 300px;
+  height: 200px;
 }
 
 /* Taller footer on small screens */
 @media (max-width: 567em) {
   .footer {
-    height: 700px;
+    height: fit-content;
   }
 }
 
