@@ -4,7 +4,6 @@
 https://sumitvarun.github.io/FilmoCity/
 
 <img src="https://user-images.githubusercontent.com/52107131/112041805-d0c17400-8b6c-11eb-8e7f-8675ebb800e6.gif" alt="Computer man" style="width:48px;height:48px;">
-<img src = "https://user-images.githubusercontent.com/52107131/112367674-3c881600-8d00-11eb-9b07-81e7b82aeb98.png">
 
 ## License
 #### Copyright (c) 2021 SUMIT KUMAR
